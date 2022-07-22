@@ -12,14 +12,31 @@
       Thank you for taking the time to help us improve the platform
     </p>
     <form action="" id="survey-form">
+      <label id="name-label" for="name">Name</label>
       <input required type="text" id="name" placeholder="Enter your Name" />
-      <input
+      <label id="email-label" for="email">Email</label>
+      <input 
         required
         type="email"
         id="email"
         placeholder="Enter a Valid Email"
       />
-      <input type="number" id="number" />
+      <label id="number-label" for="number">Number</label>
+      <input type="number" min="1" max="100" id="number" placeholder="Number" />
+      <select id="dropdown">
+        <Option></Option>
+        <option></option>
+      </select>
+
+
+      <input type="radio" name="radio" value="cat"></input>
+      <input type="radio" name="radio" value="dog"></input>
+      <input type="checkbox" value="20"></input>
+      <input type="checkbox" value="50"></input>
+      <input type="checkbox" value="40"></input>
+      <textarea>
+
+      </textarea>
       <button id="submit">submit</button>
     </form>
   </body>
